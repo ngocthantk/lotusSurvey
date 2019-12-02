@@ -1,0 +1,370 @@
+ /* CSS Document */
+ body {
+ 	overflow-x: hidden;
+ 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+ 	color: black;
+ }
+
+ nav {
+ 	overflow: hidden;
+ }
+
+ .navbar {
+ 	text-transform: uppercase;
+ 	background-color: #28a745;
+ }
+
+ .navbar-brand img {
+ 	height: 2.2rem;
+ }
+
+ .collapse ul {
+ 	display: flex;
+ 	list-style: none;
+ }
+
+ .nav-link {
+ 	font-size: 1.2rem;
+ 	color: mediumpurple;
+ 	margin-right: 2rem;
+ 	padding: 0 1rem;
+ 	display: block;
+ 	position: relative;
+ 	transform-style: preserve-3d;
+ 	transform-origin: top;
+ 	transition: transform 650ms cubic-bezier(0.55, 0.55, 0.67, 0.19);
+ }
+
+ .nav-link:hover {
+ 	transform: rotateX(90deg);
+ }
+
+ .nav-item:last-child .nav-link {
+ 	margin-right: 0;
+ }
+
+ .nav-link::after {
+ 	background-color: mediumpurple;
+ 	content: attr(data-text);
+ 	position: absolute;
+ 	left: 0;
+ 	bottom: -100%;
+ 	padding: inherit;
+ 	color: #fff;
+ 	transform: rotateX(-90deg);
+ 	transform-origin: top;
+ }
+
+ /*.home-inner{
+	background-image: ;
+}*/
+
+ .caption {
+ 	width: 100%;
+ 	max-width: 100%;
+ 	position: absolute;
+ 	top: 40%;
+ 	z-index: 1;
+ }
+
+ .caption h3 {
+ 	color: black;
+ 	font-size: 3.4rem;
+ 	text-transform: capitalize;
+ 	padding-bottom: 0rem;
+ }
+
+ .caption p {
+ 	color: gray;
+ }
+
+ .start {
+ 	border-width: medium;
+ 	border-radius: 0;
+ 	text-transform: uppercase;
+ 	padding: .5rem 1.5rem;
+ 	font-size: .9rem;
+ }
+
+ /* iOS langding Fix*/
+ .langding {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100vh;
+ 	display: table;
+ 	background: #E9ECEF;
+ 	z-index: -1;
+ }
+
+ .home-wrap {
+ 	clip: rect(0, auto, auto, 0);
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ .home-inner {
+ 	position: fixed;
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	background-size: cover;
+ 	background-position: center center;
+ 	-webkit-transform: translateZ(0);
+ 	transform: translateZ(0);
+ 	will-change: transform;
+ }
+
+ /*section 0*/
+ .carousel-item {
+ 	height: 50vh;
+ }
+
+ .carousel-caption {
+ 	position: absolute;
+ 	top: 10%;
+ 	text-transform: uppercase;
+
+ }
+
+ .carousel-caption h1 {
+ 	font-size: 3.8rem;
+ 	font-weight: 700;
+ 	letter-spacing: .3rem;
+ }
+
+ /*section 1*/
+ .narrow {
+ 	width: 75%;
+ 	margin: 0 auto;
+ 	padding-top: 2rem;
+ 	padding-bottom: 3rem;
+ }
+
+ .narrow h1 {
+ 	font-size: 2.5rem;
+ 	text-transform: uppercase;
+ }
+
+ .narrow p strong {
+ 	color: #151515;
+ }
+
+ /*section 2*/
+ .cover {
+ 	width: 100%;
+ 	height: 50vmin;
+ 	background: url('../assets/carousel1.jpg');
+ 	background-position: 0rem 0rem;
+ 	background-size: 100%;
+ 	position: relative;
+ }
+
+ .cover .content {
+ 	background: rgba(0, 0, 0, 0.5);
+ 	height: 100%;
+ 	width: 100%;
+ 	padding-top: 19vmin;
+ }
+
+ .cover .content>h1 {
+ 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+ 	font-size: 6vmin;
+ 	color: whitesmoke;
+ 	text-transform: uppercase;
+ }
+
+ .number .rect {
+ 	position: relative;
+ 	z-index: 1;
+ 	background: white;
+ 	width: 17rem;
+ 	height: 12rem;
+ 	padding-top: 3.5vmin;
+ 	margin: 3rem;
+ 	border-radius: .5em;
+ 	box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.3)
+ }
+
+ .number {
+ 	margin-top: -15vmin;
+ }
+
+ .number .rect h1 {
+ 	font-size: 5rem;
+ 	color: orangered;
+ }
+
+ /*cards*/
+ .popularsv>p {
+ 	font-size: 3vmin;
+ 	padding-bottom: 10vmin;
+ }
+
+ .popularsv .cards .card {
+ 	width: 22rem;
+ 	margin: 3vmin;
+ }
+
+ .cards div {
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+ .cards .card-body {
+ 	padding: 0;
+ 	margin: 3vmin;
+ }
+
+ .cards .title {
+ 	background: rgba(208, 241, 241, 0.1);
+ 	padding: 1.4rem 2.5rem;
+ 	font-size: 2vmin;
+ }
+
+ .cards .card-text {
+ 	padding: 1.5rem 4rem;
+ }
+
+ .inner {
+ 	overflow: hidden;
+ }
+
+ .inner img {
+ 	transition: all 1.5s ease;
+ }
+
+ .inner:hover img {
+ 	transform: scale(1.5);
+ }
+
+ /*section 4*/
+ .history {
+ 	width: 100%;
+ 	margin: 0 auto;
+ 	padding-top: 6rem;
+ 	padding-bottom: 3rem;
+ }
+
+ /*footer*/
+ h2 {
+ 	color: #fff;
+ 	font-size: 20px;
+ }
+
+ p {
+ 	color: #999;
+ 	line-height: 25px;
+ }
+
+ .footer-top {
+ 	background-color: #111;
+ 	padding: 50px 0;
+ }
+
+ .footer-info h2 {
+ 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+ 	color: #fff;
+ 	letter-spacing: 2px;
+ 	margin: 5px;
+ }
+
+ .footer-links h2 {
+ 	color: #fff;
+ 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+ 	text-transform: uppercase;
+ }
+
+ .footer-links h2:before {
+ 	content: '|';
+ 	color: #D8BB21;
+ 	padding-right: 5px;
+ }
+
+ .footer-links ul {
+ 	margin: 0;
+ 	padding: 0;
+ 	list-style: none;
+ }
+
+ .footer-links ul li {
+ 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+ 	line-height: 40px;
+ }
+
+ .footer-links ul li a {
+ 	color: #998;
+ 	text-decoration: none;
+ }
+
+ .footer-contact h2 {
+ 	color: #fff;
+ 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+ 	text-transform: uppercase;
+ }
+
+ .footer-contact h2:before {
+ 	content: '|';
+ 	color: #D8BB21;
+ 	padding-right: 5px;
+ }
+
+ .footer-contact div a {
+ 	background: #494848;
+ 	width: 40px;
+ 	height: 40px;
+ 	display: inline-block;
+ 	border-radius: 50%;
+ }
+
+ .footer-contact div a i {
+ 	font-size: 18px;
+ 	color: #fff;
+ 	padding: 10px 12px;
+ }
+
+ .footer-newsletter h2 {
+ 	color: #fff;
+ 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+ 	text-transform: uppercase;
+ }
+
+ .footer-newsletter h2:before {
+ 	content: '|';
+ 	color: #D8BB21;
+ 	padding-right: 5px;
+ }
+
+ .footer-newsletter form input[type=submit] {
+ 	background: #0071FF;
+ 	border: none;
+ 	padding: 3px 15px;
+ 	margin-left: -5px;
+ 	color: #FFFFFF;
+ }
+
+ .copyright {
+ 	text-align: center;
+ 	background: #000;
+ 	line-height: 30px;
+ }
+
+ @media only screen and (min-width:768px) and (max-width: 991px) {
+ 	.md-mb-30 {
+ 		margin-bottom: 30px;
+ 	}
+ }
+
+ @media only screen and (max-width: 767px) {
+ 	.sm-mb-30 {
+ 		margin-bottom: 30px;
+ 	}
+
+ 	.footer-top {
+ 		padding: 30px 0;
+ 	}
+ }
