@@ -298,11 +298,6 @@
         </div>
     </footer>
 
-    <div class="copyright text-muted">
-        &copy; Copyright <strong>Kritech</strong> All Rights Reserved
-    </div>
-
-
 
 
 
