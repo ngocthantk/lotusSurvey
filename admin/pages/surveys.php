@@ -135,7 +135,7 @@ function ValidateSubmit(form)
     </table>
   </div>
   <br/>
-  <input type="submit" class="btn btn-default pull-right" value=" <?php echo $this->texts["delete"];?> "/>
+  <input type="submit" class="btn btn-default pull-right btn-danger" value=" <?php echo $this->texts["delete"];?> "/>
   
   </form>
   <div class="clearfix"></div>

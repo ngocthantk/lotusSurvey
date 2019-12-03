@@ -176,11 +176,11 @@ if(!defined('IN_SCRIPT')) die("");
 						<fieldset>
 							<legend><?php echo $this->texts["modify_admin_user_pass"];?></legend>
 							<ol>
-								<li>
+								<!-- <li>
 									<label><?php echo $this->texts["username"];?>:</label>
 									
 									<input type="text" name="admin_username" value="<?php echo $ini_array["login"]["admin_user"];?>"/>
-								</li>
+								</li> -->
 								<li>
 									<label><?php echo $this->texts["old_password"];?>:</label>
 									

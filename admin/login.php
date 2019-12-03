@@ -27,20 +27,16 @@ $website->LoadSettings();
 </div>
 <form id="main" style="margin-top:0px" action="login_action.php" method="post">
   <div class="group">
-    <input name="username" required type="text"><span class="highlight"></span><span class="bar"></span>
-    <label><?php echo $website->texts["username"];?></label>
+    <input name="username" required type="text" placeholder="Tên đăng nhập"></span><span class="bar"></span>
   </div>
   <div class="group">
-    <input name="password" required type="password"><span class="highlight"></span><span class="bar"></span>
-    <label><?php echo $website->texts["password"];?></label>
+    <input name="password" required type="password" placeholder="Mật khẩu"></span><span class="bar"></span>
   </div>
   <input type="submit" class="button buttonBlue" value="<?php echo $website->texts["login"];?>"/>
-  
-</form>
-<footer>
-  <p></p>
-</footer>
-
-
+  </div>
+  <div style="font-size: 14px; text-align: center;">
+    <span>Chưa có tài khoản?<a href="register.php" style="text-decoration: none;"><strong style="color: #28a745">  Đăng ký</strong></a></span>
+  <div>
+  </form>
   </body>
 </html>

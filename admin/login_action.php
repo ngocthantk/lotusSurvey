@@ -1,9 +1,4 @@
 <?php
-// PHP Survey 
-// Copyright (c) All Rights Reserved, NetArt Media 2003-2016
-// Check https://www.netartmedia.net/php-survey for demos and information
-
-?><?php
 define("LOGIN_PAGE", "login.php");
 define("SUCCESS_PAGE", "index.php?login=1");
 define("LOGIN_EXPIRE_AFTER", 24 * 3600);

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="owl.carousel.min.css">
     <link rel="stylesheet" href="owl.theme.default.min.css">
 
-    
+    <link rel="shortcut icon" href="admin/images/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 
 
     <header>
-        <div id="home">
+        <div id="home" >
             <nav class="navbar navbar-light navbar-expand-md fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="admin/images/logo.png" alt="icon"></a>
@@ -42,7 +42,7 @@
                             </li>
                             
                             <li class="nav-item">
-                                <a class="nav-link" href="{{URL::to('/user-signup" data-text="Sign up">Sign up</a>
+                                <a class="nav-link" href="admin/register.php" data-text="Sign up">Sign up</a>
                             </li>
                         </ul>
                     </div>

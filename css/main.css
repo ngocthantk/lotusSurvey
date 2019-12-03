@@ -700,10 +700,11 @@ left: 48%
 
 .block-wrap {
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 245px;
     border: 1px solid #eee;
     border-left-width: 5px;
-    border-radius: 3px
+	border-radius: 3px;
+	border-left-color: #28a745
 }
 
 .block-wrap h4 {
@@ -761,4 +762,9 @@ left: 48%
 .min-height-400
 {
 	min-height:400px;
+}
+
+.btn{
+	background-color: #28a745 !important;
+	color: black;
 }

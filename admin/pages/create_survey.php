@@ -189,7 +189,7 @@ if($show_add_form)
 							 <?php echo $this->texts["textbox"];?> <span class="caret"></span></a>
 							
 							<ul class="dropdown-menu">
-								<!-- <li><a href="javascript:void(0);"><img src="images/form_combo.gif"/><?php echo $this->texts["dropdown"];?></a></li> -->
+								<!-- <li><a href="javascript:void(0);"><img src="images/form_combo.gif"/></a></li> -->
 								<li><a href="javascript:void(0);"><?php echo $this->texts["textarea"];?></a></li>
 								<li><a href="javascript:void(0);"><?php echo $this->texts["checkbox"];?></a></li>
 								<li><a href="javascript:void(0);"><?php echo $this->texts["radiobutton"];?></a></li>
@@ -244,7 +244,7 @@ if($show_add_form)
 				<div class="col-md-1">
 					<div class="form-group">
 						<br/>
-						<a class="btn btn-default btn-wd" href="javascript:AddQuestion()"><?php echo $this->texts["add"];?></a>
+						<a class="btn btn-default btn-wd btn-success" href="javascript:AddQuestion()"><?php echo $this->texts["add"];?></a>
 					</div>
 				</div>
 			

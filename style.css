@@ -24,6 +24,7 @@
  }
 
  .nav-link {
+	color: black !important;
  	font-size: 1.2rem;
  	color: mediumpurple;
  	margin-right: 2rem;

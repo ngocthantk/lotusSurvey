@@ -322,7 +322,7 @@ if($show_add_form)
 				<div class="col-md-1">
 					<div class="form-group">
 						<br/>
-						<a class="btn btn-default btn-wd" href="javascript:AddQuestion()"><?php echo $this->texts["add"];?></a>
+						<a class="btn btn-default btn-wd btn-success" href="javascript:AddQuestion()"><?php echo $this->texts["add"];?></a>
 					</div>
 				</div>
 			

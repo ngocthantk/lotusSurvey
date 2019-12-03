@@ -175,7 +175,7 @@ $survey = $nodes[0];
 					$possible_values=explode("@@@",$question_items[2]);
 					foreach($possible_values as $value)
 					{
-						echo '<input type="radio" required value="'.$value.'" name="survey_question_'.$question_counter.'" '.(isset($_POST["survey_question_".$question_counter])&&$_POST["survey_question_".$question_counter]==$value?"checked":"").' class=""/> '.$value.' &nbsp;&nbsp;';
+						echo '<input type="radio" required value="'.$value.'" name="survey_question_'.$question_counter.'" '.(isset($_POST["survey_question_".$question_counter])&&$_POST["survey_question_".$question_counter]==$value?"checked":"").' class=""/> '.$value.' &nbsp;&nbsp;<br>';
 					}
 				}					
 			}
@@ -234,7 +234,7 @@ $survey = $nodes[0];
 		?>
 		<br/>
 				
-		<button type="submit" class="btn btn-lg custom-back-color"><?php echo $this->texts["submit"];?></button>
+		<button type="submit" class="btn btn-lg custom-back-color btn-success"><?php echo $this->texts["submit"];?></button>
 	
 		<div class="clearfix"></div>
 		<br/>
