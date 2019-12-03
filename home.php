@@ -126,7 +126,7 @@
         </div>
     </section>
 
-    <section class="section-2 container-fluid p-0">
+    <!-- <section class="section-2 container-fluid p-0">
         <div class="cover">
             <div class="content text-center">
                 <h1>Our company history</h1>
@@ -148,7 +148,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- <section class="section-3">
         <div class="popularsv text-center">
