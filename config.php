@@ -1,7 +1,7 @@
 ; <?php exit;?>
 
 [login]
-admin_user = "admin"
+admin_user = "thang"
 admin_password = "da1907216877e31462c14b35db67de32"
 
 [website]

@@ -72,24 +72,24 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="stretched-1920-1080-382263.jpg" class="d-block w-100" alt="First Slide">
+                            <img src="slidebar1.png" class="d-block w-100" alt="First Slide">
                             <div class="carousel-caption d-none d-md-block text-center">
-                                <h1>First slide label</h1>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <!-- <h1>First slide label</h1>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="stretched-1920-1080-595808.jpg" class="d-block w-100" alt="Second Slide">
+                            <img src="slidebar2.png" class="d-block w-100" alt="Second Slide">
                             <div class="carousel-caption d-none d-md-block text-center">
-                                <h1>Second slide label</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <!-- <h1>Second slide label</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="stretched-1920-1080-759633.jpg" class="d-block w-100" alt="Third Slide">
+                            <img src="slidebar1.png" class="d-block w-100" alt="Third Slide">
                             <div class="carousel-caption d-none d-md-block text-center">
-                                <h1>Third slide label</h1>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <!-- <h1>Third slide label</h1>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
                             </div>
                         </div>
                     </div>
